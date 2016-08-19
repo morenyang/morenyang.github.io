@@ -3,6 +3,10 @@ body {
   min-height: 100vh;
 }
 
+normal{
+  font-weight: 400;
+}
+
 .header .content {
   margin-top: 24vh;
   max-width: 750px;
