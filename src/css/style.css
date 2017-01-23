@@ -73,31 +73,33 @@ normal {
 
 .err-page {
     background-color: #fafafa;
+    font-family: Oxygen, 'PingFang SC', 'HanHei SC', Helvetica, Arial, sans-serif
 }
 
 .err-page .main-layout {
-    margin: 13% auto 0;
+    margin: 8% auto 0;
     max-width: 470px;
     min-height: 180px;
-    padding: 30px 0 15px;
-}
-
-.err-page .main-layout .brand .brand-text {
-    color: rgba(0, 0, 0, .36);
-    text-decoration: none;
-    font-size: 36px;
-    line-height: 1.1;
-    margin: 5px 0;
-    font-weight: 200;
+    padding: 30px 0 15px
 }
 
 @media screen and (max-width: 767px) {
     .err-page .main-layout {
-        background: none;
+        background: 0 0;
         margin-top: 12%;
         max-width: none;
-        padding-right: 0;
+        padding-right: 0
     }
+}
+
+.err-page .main-layout .brand .brand-text {
+    font-family: 'PingFang SC', 'HanHei SC', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+    color: rgba(0, 0, 0, .36);
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 1.1;
+    margin: 5px 0 !important;
+    font-weight: 200
 }
 
 .err-page .err-sataus-bar {
@@ -105,9 +107,11 @@ normal {
 }
 
 .err-page .err-sataus-bar .err-status {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 72px;
     font-weight: 100;
-    margin: 5px 0;
+    line-height: 1.1 !important;
+    margin: 5px 0 !important
 }
 
 @media screen and (max-width: 767px) {
@@ -118,13 +122,14 @@ normal {
 
 .err-page .err-sataus-bar .err-status-content {
     font-size: 24px;
-    font-weight: 300
+    font-weight: 300;
+    line-height: 1.1 !important
 }
 
 @media screen and (max-width: 767px) {
     .err-page .err-sataus-bar .err-status-content {
         font-size: 20px;
-        margin: 10px 0 5px
+        margin: 10px 0 5px !important
     }
 }
 
@@ -132,6 +137,11 @@ normal {
     color: #333
 }
 
-.err-page .message-bar .message .url {
+.err-page .message-bar .message {
+    font-size: 14px !important;
+    margin: 0 0 10px !important
+}
+
+.err-page .message-bar .url {
     color: rgba(0, 0, 0, .46)
 }
