@@ -1,79 +1,6 @@
-body {
-    background-color: white;
-    min-height: 100vh;
-}
-
-normal {
-    font-weight: 400;
-}
-
-.header .content {
-    margin-top: 24vh;
-    max-width: 750px;
-}
-
-.header .content h1 {
-    font: 300 32px/1.6 'Oxygen', sans-serif;
-    margin: 0;
-}
-
-.header .content h1 span {
-    font-size: 72px;
-}
-
-.header .content p {
-    font: 300 24px/1.3 'Oxygen', sans-serif;
-}
-
-.header .content p #blog-link {
-    font-weight: 400;
-}
-
-.header .content p a {
-    color: #6f6f6f;
-    transition: all 0.1s ease-in 0s;
-    -webkit-transition: all 0.1s ease-in 0s;
-    -moz-transition: all 0.1s ease-in 0s;
-}
-
-.header .content p a:hover,
-.header .content p a:focus {
-    color: #3a3a3a;
-}
-
-@media (max-width: 1199px) {
-    .header .content {
-        max-width: 750px;
-    }
-}
-
-@media (max-width: 991px) {
-    .header .content {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 767px) {
-    .header .content h1 {
-        font-size: 20px;
-    }
-
-    .header .content h1 span {
-        font-size: 32px;
-    }
-
-    .header .content p {
-        font-size: 18px;
-    }
-
-    .header .content p a {
-        text-decoration: underline;
-    }
-}
-
 .err-page {
     background-color: #fafafa;
-    font-family: Oxygen, 'PingFang SC', 'HanHei SC', Helvetica, Arial, sans-serif
+    font-family: 'Oxygen', Helvetica, Arial, sans-serif
 }
 
 .err-page .main-layout {
@@ -93,7 +20,7 @@ normal {
 }
 
 .err-page .main-layout .brand .brand-text {
-    font-family: 'PingFang SC', 'HanHei SC', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+    font-family: 'Oxygen', Helvetica, Arial, sans-serif;
     color: rgba(0, 0, 0, .36);
     text-decoration: none;
     font-size: 36px;
